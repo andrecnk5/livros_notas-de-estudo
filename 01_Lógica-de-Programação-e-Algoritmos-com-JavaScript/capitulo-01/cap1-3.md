@@ -1,0 +1,37 @@
+
+# Lógica de Programação e Algoritmos com JavaScript
+
+## Capítulo 1: Introdução ao JavaScript
+
+### 1.3 JavaScript
+
+#### História do JavaScript
+A linguagem JavaScript foi criada pela Netscape Communications Corporation em parceria com a Sun Microsystems. Sua primeira versão foi lançada em 1995, quando o Netscape Navigator dominava o mercado de navegadores. Em 1996, para evitar problemas de compatibilidade entre navegadores, a Netscape entregou o JavaScript para a ECMA (European Computer Manufacturers Association), uma associação dedicada à padronização de sistemas de informação. Em 1997, foi lançada a primeira edição padronizada da linguagem, chamada ECMAScript.
+
+#### Papel do JavaScript no Desenvolvimento Web
+JavaScript desempenha um papel crucial no desenvolvimento de páginas para a internet, junto com HTML e CSS:
+- **HTML (HyperText Markup Language)**: Descreve o conteúdo de uma página web e define a marcação semântica dos elementos.
+- **CSS (Cascading Style Sheets)**: Define os estilos e a formatação dos elementos, determinando a aparência do site.
+- **JavaScript**: Define o comportamento dos elementos da página, permitindo a interação com os usuários. Os códigos escritos em JavaScript são interpretados diretamente pelos navegadores.
+
+#### Funcionalidades do JavaScript
+Com JavaScript, é possível:
+- Interagir com os visitantes de uma página através de campos de formulário.
+- Acessar e modificar o conteúdo e as características de uma página.
+- Salvar informações no navegador do usuário.
+- Auxiliar na construção de layouts complexos.
+- Exibir opções de compras e alterar características de produtos conforme as escolhas dos clientes.
+- Criar jogos interativos que rodam no navegador em qualquer plataforma (Windows, Mac ou Linux) e em qualquer dispositivo (computador, tablet ou celular).
+
+#### Exemplos de Uso do JavaScript
+- Em um site de uma loja de esportes, trocar o símbolo e a cor de fundo do título da página para a cor do clube favorito do cliente, salvando a escolha no navegador para visitas futuras.
+- Em um site de uma pizzaria, criar um aplicativo para que o garçom informe os itens de um pedido, agilizando a seleção dos itens de acordo com o tipo do produto.
+- Em um site de uma empresa de eventos, montar o layout com as poltronas de um teatro disponíveis para reserva, permitindo a seleção de poltronas pelos usuários.
+- Em um site de uma escola infantil, criar um jogo de "Descubra a Palavra" com links para cadastrar palavras e dicas, selecionando uma palavra aleatória para a criança adivinhar.
+
+#### Popularidade e Importância do JavaScript
+JavaScript é uma das linguagens de programação mais populares e valorizadas no mercado de trabalho atual. Pesquisas de abrangência mundial frequentemente colocam JavaScript no topo das classificações, baseando-se em fatores como análises de arquivos no GitHub e pesquisas em sites como o Stack Overflow.
+
+#### JavaScript no Cliente e no Servidor
+JavaScript é principalmente usada para rodar scripts no lado do cliente, ou seja, no próprio navegador web (Chrome, Internet Explorer/Edge, Firefox, Safari, Opera). No entanto, também está crescendo o número de aplicações desenvolvidas com JavaScript para rodar no lado do servidor (com Node.js, por exemplo).
+

@@ -1,0 +1,41 @@
+
+# Lógica de Programação e Algoritmos com JavaScript
+
+## Capítulo 1: Saída de Dados com `alert()` e `console.log()`
+
+### 1.5 Saída de Dados com `alert()` e `console.log()`
+
+Pronto para realizar seus primeiros testes de programação? Antes de começarmos a digitar os códigos de alguns exemplos, vamos definir a estrutura das pastas em que os arquivos serão salvos. Recomendo que você crie uma pasta específica para os exemplos deste livro, como `livrojs` na raiz do disco C:. Dentro dessa pasta, crie uma nova pasta para cada capítulo, começando com `cap01`.
+
+Dessa forma, nossos programas ficam organizados e fáceis de localizar. Para os nomes dos programas, vamos adotar um padrão:
+- `ex1_1.html`, `ex1_2.html` e assim por diante para os exemplos do Capítulo 1.
+- Os arquivos contendo os exemplos de resposta dos exercícios finais de cada capítulo serão salvos como `resp1_a.html`, `resp1_b.html`, etc.
+
+Se estiver utilizando um computador em que não gostaria de instalar o Visual Studio Code, você pode rodar os programas deste capítulo acessando um dos sites de editores online. No Visual Studio Code, para que o editor disponibilize alguns auxílios que serão discutidos ao longo do livro, é necessário indicar o tipo de documento que está sendo criado. Isso pode ser feito a partir da barra de status do editor. Ao clicar sobre "Texto sem Formatação", uma lista de tipos de arquivos é apresentada. Nossos primeiros documentos devem ser do tipo HTML. Outra forma de indicar o tipo do arquivo é salvá-lo logo no início da edição, selecionando o seu tipo. Faça isso e já salve o documento em branco com o nome `ex1_1.html`.
+
+### Exemplo 1.1 — Saída de dados com `alert()` (ex1_1.html)
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo 1.1</title>
+</head>
+<body>
+  <script>
+    alert("Bem-vindo ao Mundo JavaScript!");
+    console.log("Meu primeiro programa... JavaScript!");
+  </script>
+</body>
+</html>
+```
+
+Depois de salvar o arquivo, é necessário executá-lo, ou, no caso do JavaScript, renderizá-lo em um navegador. Para isso, abra o seu navegador favorito e na barra de endereços informe o caminho onde você salvou o arquivo. Você também pode digitar apenas uma parte desse caminho e depois selecionar o arquivo. Outra opção é ir até a pasta em que a página foi salva, clicar com o botão direito do mouse sobre o arquivo, selecionar "Abrir com" e escolher um dos navegadores instalados no computador. Ao executar o programa, a mensagem que você escreveu dentro das aspas "Bem-vindo ao Mundo JavaScript!" é exibida em uma caixa no centro da tela.
+
+Para visualizar a saída gerada pelo comando `console.log()`, você deve procurar por Ferramentas do Desenvolvedor no seu navegador e selecionar o item Console. No Google Chrome, você pode obter o mesmo resultado ao pressionar a tecla F12. A saída gerada pelo `console.log()` será exibida no console.
+
+Certifique-se de ter digitado os comandos da mesma forma como no exemplo. As linguagens de programação são rígidas quanto à sintaxe dos comandos. Muitas delas, como o JavaScript, são case sensitive, ou seja, diferenciam letras maiúsculas de minúsculas. Se a caixa de alerta não foi exibida quando você mandou abrir o arquivo no navegador, verifique cuidadosamente se os comandos digitados estão corretos. Após os ajustes, salve o arquivo e abra novamente a página no navegador (ou pressione F5). Você vai se acostumar a ser cuidadoso com a escrita do código com o passar do tempo.
+
+Os programas deste capítulo são dedicados a apresentar os primeiros passos de programação. Por isso, utilizaremos o comando/método `alert()` para exibir mensagens em uma caixa no navegador. No próximo capítulo, vamos avançar um pouco mais e trabalhar as formas de integração do código JavaScript com HTML. Os termos comando, função, método ou procedimento podem ter pequenas diferenças quanto ao conceito, dependendo da linguagem. Por enquanto, entenda que eles são palavras-chaves da linguagem que servem para executar uma ação no programa.
+

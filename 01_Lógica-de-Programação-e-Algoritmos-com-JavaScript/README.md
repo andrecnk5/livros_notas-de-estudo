@@ -1,58 +1,174 @@
-# Estudo do Livro "Lógica de Programação e Algoritmos com JavaScript"
+# Lógica de Programação e Algoritmos com JavaScript
 
-Este repositório é dedicado ao estudo do livro "Lógica de Programação e Algoritmos com JavaScript" de Edécio Fernando Iepsen, 2ª Edição, Editora Novatec. Aqui, irei compartilhar meus aprendizados, exercícios e textos autorais sobre o que entendi de cada capítulo do livro.
+## Sumário
 
-## Objetivo
+### 1. Introdução
 
-O objetivo deste repositório é documentar e organizar meu aprendizado em lógica de programação e algoritmos utilizando JavaScript. Pretendo reforçar os conceitos teóricos através de exercícios práticos e produzir resumos sobre cada capítulo, consolidando o conhecimento adquirido.
+- Lógica de programação
+  - Compreender o que é pedido
+  - Realizar deduções na construção do programa
+  - Enumerar as etapas a serem realizadas
+  - Analisar outras possibilidades de solução
+  - Ensinar ao computador uma solução
+  - Pensar em todos os detalhes
+- Entrada, processamento e saída
+- JavaScript
+- Editores de código JavaScript
+- Saída de dados com `alert()` e `console.log()`
+- Variáveis e constantes
+- Entrada de dados com `prompt()`
+- Comentários
+- Tipos de dados e conversões de tipos
+- Exemplos de entrada, processamento e saída
+- Exercícios
+- Considerações finais do capítulo
 
-## Estrutura do Repositório
+### 2. Integração com HTML
 
-- Cada capítulo do livro terá um diretório próprio onde serão armazenados os exercícios e textos autorais.
-- Os diretórios serão organizados de acordo com os capítulos do livro, facilitando a navegação e o acompanhamento dos estudos.
+- Estrutura básica de um documento HTML
+- Cabeçalhos, parágrafos e campos de formulário
+- Criação do programa JavaScript
+- Métodos `querySelector()` e `getElementById()`
+- Introdução a eventos e funções
+- Propriedades `innerText`, `innerHTML` e `value`
+- Método `preventDefault()`
+- Operadores aritméticos e funções matemáticas
+- Exemplos de programas JavaScript integrados com HTML
+- Exercícios
+- Considerações finais do capítulo
 
-## Capítulos e Conteúdo
+### 3. Construção de algoritmos com Node.js
 
-1. **Capítulo 1: Introdução à Programação**
+- Instalação do Node.js
+- Adição de pacote para entrada de dados
+- Criação e execução de programas com o Node.js
+- Exemplos de algoritmos com Node.js
+- Considerações finais do capítulo
 
-   - **Exercícios:** [Link para exercícios](capitulo-01/exercicios)
-   - **Texto Autor:** [Link para texto autoral](capitulo-01/texto-autoral.md)
+### 4. Condições
 
-2. **Capítulo 2: Estruturas de Controle**
+- `If...else`
+- Operadores relacionais
+- Operadores lógicos
+- Operador ternário
+- `Switch...Case`
+- Exemplos com HTML e JavaScript
+- Exemplos com Node.js
+- Exercícios
+- Considerações finais do capítulo
 
-   - **Exercícios:** [Link para exercícios](capitulo-02/exercicios)
-   - **Texto Autor:** [Link para texto autoral](capitulo-02/texto-autoral.md)
+### 5. Repetições
 
-3. **Capítulo 3: Funções**
+- Repetição com variável de controle: laços `for`
+- Repetição com teste no início: laços `while`
+- Repetição com teste no final: laços `do..while`
+- Interrupções nos laços (`break` e `continue`)
+- Contadores e acumuladores
+- Depurar programas (detectar erros)
+- Exemplos de algoritmos de repetição com Node.js
+- Exercícios
+- Considerações finais do capítulo
 
-   - **Exercícios:** [Link para exercícios](capitulo-03/exercicios)
-   - **Texto Autor:** [Link para texto autoral](capitulo-03/texto-autoral.md)
+### 6. Vetores
 
-4. **Capítulo 4: Algoritmos**
+- Inclusão e exclusão de itens
+- Tamanho do vetor e exibição dos itens
+- `For..of` e `forEach()`
+- Localizar conteúdo
+- Vetores de objetos
+- Desestruturação e operador Rest/Spread
+- Pesquisar e filtrar dados
+- `Map`, `Filter` e `Reduce`
+- Classificar os itens do vetor
+- Manipulação de vetores com Node.js
+- Exercícios
+- Considerações finais do capítulo
 
-   - **Exercícios:** [Link para exercícios](capitulo-04/exercicios)
-   - **Texto Autor:** [Link para texto autoral](capitulo-04/texto-autoral.md)
+### 7. Strings e datas
 
-5. **Capítulo 5: Estruturas de Dados**
+- Percorrer os caracteres de uma string
+- Converter para letras maiúsculas ou minúsculas
+- Cópia de caracteres e remoção de espaços da string
+- Localizar um ou mais caracteres na string
+- Dividir a string em elementos de vetor
+- Validar senhas com o método `match()`
+- Substituição de caracteres
+- Manipulação de datas
+- Strings e datas com Node.js
+- Exercícios
+- Considerações finais do capítulo
 
-   - **Exercícios:** [Link para exercícios](capitulo-05/exercicios)
-   - **Texto Autor:** [Link para texto autoral](capitulo-05/texto-autoral.md)
+### 8. Funções e eventos
 
-6. **Capítulo 6: Depuração e Testes**
+- `Functions` e `Arrow Functions`
+- Funções com passagem de parâmetros
+- Funções com retorno de valor
+- Funções com parâmetros Rest
+- Funções anônimas
+- Eventos JavaScript
+- Funções com Node.js
+- Exercícios
+- Considerações finais do capítulo
 
-   - **Exercícios:** [Link para exercícios](capitulo-06/exercicios)
-   - **Texto Autor:** [Link para texto autoral](capitulo-06/texto-autoral.md)
+### 9. Persistência de dados com localStorage
 
-7. **Capítulo 7: Práticas de Programação**
-   - **Exercícios:** [Link para exercícios](capitulo-07/exercicios)
-   - **Texto Autor:** [Link para texto autoral](capitulo-07/texto-autoral.md)
+- Salvar e recuperar dados
+- Uma “pitada” de Bootstrap
+- Remover dados do `localStorage`
+- Uso do `querySelectorAll()`
+- Manipular listas no `localStorage`
+- Exercícios
+- Considerações finais do capítulo
 
-## Contato
+### 10. Inserir elementos HTML via JavaScript
 
-Para mais informações, você pode me encontrar no GitHub:
+- Inserir e manipular elementos de texto
+- Inserir imagens
+- Manipular tabelas HTML
+- Exercícios
+- Considerações finais do capítulo
 
-- [GitHub - andrecnk5](https://github.com/andrecnk5)
+### 11. É muito bom programar... Programe!
 
-## Licença
+- Programa Jockey Club
+- Programa Reserva de Poltronas em Teatro
+- Jogo “Descubra a Palavra”
+  - Cadastro de palavras
+  - Listagem de palavras
+  - Programação do jogo
+- Considerações finais do capítulo
 
-Este projeto está licenciado sob a licença GPL-3.0 - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+### 12. Criação de um App: Back-end com Express
+
+- Express
+- Nodemon
+- Rotas `POST` e Formato JSON
+- Middlewares
+- Use o Knex e escolha o banco de dados
+- Criação de tabelas com Migrations
+- Seeds: “semeando” dados iniciais
+- Database Config e `express.Router`
+- `Async` e `await`
+- Status Code HTTP
+- Rotas para a realização do CRUD
+- Filtros, totalizações e agrupamentos
+- CORS
+- Considerações finais do capítulo
+
+### 13. Criação de um App: Front-end com React
+
+- Variáveis de Estado: `useState()`
+- Organização em componentes
+- Criação de um novo projeto React
+- Simplificando o gerenciamento do form com React Hook Form
+- Axios para comunicar com o Web Service
+- Criação de Rotas com o React Router
+- `useEffect()`
+- Filtrando os registros da listagem
+- Exclusão, alteração e passagem de funções como props
+- Resumo com gráfico ou dashboard do sistema
+- Considerações finais
+
+## Referências
+
+## Índice remissivo

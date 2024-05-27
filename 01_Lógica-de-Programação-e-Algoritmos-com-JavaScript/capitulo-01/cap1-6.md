@@ -1,0 +1,141 @@
+# Lógica de Programação e Algoritmos com JavaScript
+
+## Capítulo 1: Variáveis e Constantes
+
+### 1.6 Variáveis e Constantes
+
+#### Introdução
+
+Uma das principais funções de um programa é interagir com os usuários. Essa interação geralmente ocorre por meio da solicitação de informações, implementação de ações baseadas nessas informações e apresentação de respostas. Imagine um terminal de caixa eletrônico que possibilite saques de apenas 100 reais. Pouco útil, já que os clientes do banco que possuem saldo inferior a 100 reais não poderiam utilizá-lo e aqueles que precisam de 500 reais, por exemplo, teriam de realizar 5 vezes a mesma operação. Haveria ainda aqueles que precisam de um valor não múltiplo de 100. Ou seja, o melhor é solicitar ao cliente o valor a ser sacado. Para isso é que existem as variáveis.
+
+#### O que são Variáveis?
+
+Variáveis são espaços na memória do computador que guardam informações temporariamente. Por exemplo, em um caixa eletrônico, uma variável pode armazenar o valor que o cliente deseja sacar. Os valores em uma variável podem mudar durante a execução do programa. São exemplos de variáveis manipuladas em um programa: a descrição, a quantidade e o preço de um produto ou, então, o nome, o salário e a altura de uma pessoa.
+
+#### Exemplos de Variáveis
+
+- Descrição, quantidade e preço de um produto.
+- Nome, salário e altura de uma pessoa.
+
+#### Diferença entre Variáveis e Constante
+
+- **Variáveis**: Podem ter seus valores alterados ao longo da execução do programa.
+- **Constantes**: Têm valores imutáveis após a inicialização.
+
+#### Regras de Nomenclatura
+
+Existem regras e convenções para a criação desses identificadores, que podem variar de linguagem para linguagem, mas geralmente incluem:
+
+- Não devem conter espaços vazios.
+- Não devem começar com um número.
+- Não devem utilizar palavras reservadas da linguagem.
+- Não devem conter caracteres especiais, como:
+  1. Espaços em branco
+  2. Pontuação:
+     - Ponto: `.`
+     - Vírgula: `,`
+     - Ponto e vírgula: `;`
+     - Dois pontos: `:`
+     - Hífen: `-`
+     - Sublinhado (exceto como o primeiro caractere): `_`
+  3. Parênteses: `(`, `)`
+  4. Colchetes: `[`, `]`
+  5. Chaves: `{`, `}`
+  6. Aspas:
+     - Aspas simples: `'`
+     - Aspas duplas: `"`
+  7. Barras:
+     - Barra inclinada para frente: `/`
+     - Barra inclinada para trás: `\`
+  8. Símbolos aritméticos:
+     - Mais: `+`
+     - Menos: `-`
+     - Multiplicação: `*`
+     - Divisão: `/`
+     - Porcentagem: `%`
+     - Potenciação: `**`
+  9. Símbolos de comparação:
+     - Igual: `=`
+     - Maior que: `>`
+     - Menor que: `<`
+     - Diferente: `!=`
+     - Maior ou igual que: `>=`
+     - Menor ou igual que: `<=`
+  10. Símbolos lógicos:
+      - E: `&&`
+      - Ou: `||`
+      - Negação: `!`
+  11. Outros:
+      - Ponto de exclamação: `!`
+      - Interrogação: `?`
+      - Símbolos de moeda: `$`, `€`, `£`, etc.
+      - Símbolos matemáticos: `^`, `~`
+
+#### Convenções de Nomenclatura
+
+As linguagens de programação são, em geral, "case-sensitive". Isso significa que uma variável chamada `saque` é diferente de uma variável chamada `Saque`.
+
+Convenções de nomenclatura ajudam a tornar o código mais legível e consistente. Aqui estão algumas convenções comuns:
+
+- **Camel Case:**
+
+  - Definição: Cada palavra, exceto a primeira, começa com uma letra maiúscula.
+  - Exemplo: `nomeDaVariavel`, `calcularSalario`, `obterDadosUsuario`.
+
+- **Snake Case:**
+
+  - Definição: Palavras são separadas por sublinhados (`_`), e todas as letras são minúsculas.
+  - Exemplo: `nome_da_variavel`, `calcular_salario`, `obter_dados_usuario`.
+
+- **Pascal Case (ou Upper Camel Case):**
+
+  - Definição: Similar ao camel case, mas a primeira letra de cada palavra é maiúscula. Usado frequentemente para nomear classes e tipos.
+  - Exemplo: `NomeDaClasse`, `CalcularSalario`, `ObterDadosUsuario`.
+
+- **Kebab Case (ou Lower Kebab Case):**
+
+  - Definição: Similar ao snake case, mas com hífens (`-`) em vez de sublinhados. Menos comum em linguagens de programação, mas usado em HTML, CSS e algumas ferramentas.
+  - Exemplo: `nome-da-variavel`, `calcular-salario`, `obter-dados-usuario`.
+
+- A escolha entre camel case e snake case (ou outras convenções) geralmente depende das preferências da equipe ou das diretrizes do projeto. Em algumas linguagens e comunidades, uma convenção é mais comum que a outra.
+
+- O uso do caractere sublinhado (`_`) pode variar dependendo da convenção de nomenclatura adotada e das práticas comuns na linguagem de programação ou na comunidade de desenvolvedores.
+
+#### Obs.:
+
+- Para JavaScript de preferência em utilizar camelCase para nomear variáveis: `primeiroCliente`, `novoSalario`.
+
+#### Declarando Variáveis
+
+Em JavaScript, podemos declarar variáveis usando `var`, `let` ou `const`:
+
+- `let` e `const` são recomendados nas versões mais recentes da linguagem.
+- `let` declara uma variável com escopo local.
+- `const` declara uma constante que não pode ser alterada depois de atribuída.
+
+#### Atribuição
+
+Em programação, utilizamos o conceito de atribuição para definir um valor a um identificador e assim criar uma variável. Em JavaScript e muitas outras linguagens, utilizamos o operador `=`.
+
+#### Identificadores
+
+Exemplo: Em um sistema de caixa eletrônico, identificadores apropriados para variáveis podem ser:
+
+- `saque` para armazenar o valor a ser sacado
+- `deposito` para armazenar o valor a ser depositado
+
+#### Exemplos
+
+```javascript
+// Exemplo de atribuição de variáveis
+let idade = 18; // Atribuindo o valor "18" ao identificador "idade"
+
+// Exemplos de atribuição de constantes
+const pais = "Brasil"; // Atribuindo o valor "Brasil" ao identificador "pais"
+```
+
+#### Uso de Constantes
+
+No JavaScript moderno, `const` é usado para declarar variáveis que não devem mudar. Use `let` se a variável puder ser alterada.
+
+Variáveis e constantes são fundamentais na programação, permitindo que os programas armazenem e manipulem dados conforme necessário.
