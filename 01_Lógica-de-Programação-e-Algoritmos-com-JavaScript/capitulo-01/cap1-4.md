@@ -1,7 +1,7 @@
 
 # Lógica de Programação e Algoritmos com JavaScript
 
-## Capítulo 1: Editores de Código em JavaScript
+## Editores de Código em JavaScript
 
 ### 1.4 Editores de Código em JavaScript
 

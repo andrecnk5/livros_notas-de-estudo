@@ -1,6 +1,6 @@
 # Lógica de Programação e Algoritmos com JavaScript
 
-## Capítulo 1: Variáveis e Constantes
+## Variáveis e Constantes
 
 ### 1.6 Variáveis e Constantes
 

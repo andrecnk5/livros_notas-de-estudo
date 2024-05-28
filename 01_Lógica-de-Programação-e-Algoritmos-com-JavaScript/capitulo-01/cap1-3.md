@@ -1,7 +1,7 @@
 
 # Lógica de Programação e Algoritmos com JavaScript
 
-## Capítulo 1: Introdução ao JavaScript
+## Introdução ao JavaScript
 
 ### 1.3 JavaScript
 

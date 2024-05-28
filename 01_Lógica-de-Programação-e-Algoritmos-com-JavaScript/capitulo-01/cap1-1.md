@@ -1,16 +1,16 @@
 # Lógica de Programação e Algoritmos com JavaScript
 
-## Capítulo 1: Introdução
+## Introdução
 
-### 1.1 Lógica de Programação
+### 1 Lógica de Programação
 
 A lógica de programação é essencial para resolver problemas com o uso de computadores. Aristóteles, um filósofo que viveu há muito tempo, já estudava a lógica, que nos ajuda a organizar nosso pensamento e resolver problemas de forma eficiente.
 
-### 1.1.1 Compreender o que é pedido
+### 1.1 Compreender o que é pedido
 
 Entender bem o que um exercício ou problema pede é crucial. Muitos alunos querem resolver rápido, mas acabam frustrados se não entendem bem o enunciado. Leiam os problemas com calma para evitar erros e frustrações.
 
-### 1.1.2 Realizar deduções na construção do programa
+### 1.2 Realizar deduções na construção do programa
 
 Deduzir significa tirar conclusões a partir de informações verdadeiras. Por exemplo:
 
@@ -18,7 +18,7 @@ Deduzir significa tirar conclusões a partir de informações verdadeiras. Por e
 - Se chover, Silvana vai ao cinema. Se choveu, então Silvana foi ao cinema.
   Essas deduções nos ajudam a criar programas que funcionam corretamente.
 
-### 1.1.3 Enumerar as etapas a serem realizadas
+### 1.3 Enumerar as etapas a serem realizadas
 
 Um programa segue uma sequência lógica de ações. Por exemplo, para sair com um carro:
 
@@ -41,7 +41,7 @@ Sempre existem várias maneiras de resolver um problema. Por exemplo, para somar
 2. Encontrar a menor idade e somar as outras duas.
    Se uma solução parece difícil, tente pensar em outra forma.
 
-### 1.1.5 Ensinar ao computador uma solução
+### 1.5 Ensinar ao computador uma solução
 
 Para resolver problemas com algoritmos, precisamos ensinar o computador. Por exemplo, para calcular a duração total de uma viagem em horas:
 
@@ -49,7 +49,7 @@ Para resolver problemas com algoritmos, precisamos ensinar o computador. Por exe
 2. Some as horas adicionais.
    Existem várias formas de resolver um problema, e é importante entender o problema primeiro.
 
-### 1.1.6 Pensar em todos os detalhes
+### 1.6 Pensar em todos os detalhes
 
 Criar um algoritmo é como seguir uma receita de bolo: você precisa dos ingredientes certos e das etapas corretas. Por exemplo, para acender um fósforo:
 

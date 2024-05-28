@@ -1,11 +1,13 @@
 
 # Lógica de Programação e Algoritmos com JavaScript
 
-## Capítulo 1: Saída de Dados com `alert()` e `console.log()`
+## Saída de Dados com `alert()` e `console.log()`
 
 ### 1.5 Saída de Dados com `alert()` e `console.log()`
 
-Pronto para realizar seus primeiros testes de programação? Antes de começarmos a digitar os códigos de alguns exemplos, vamos definir a estrutura das pastas em que os arquivos serão salvos. Recomendo que você crie uma pasta específica para os exemplos deste livro, como `livrojs` na raiz do disco C:. Dentro dessa pasta, crie uma nova pasta para cada capítulo, começando com `cap01`.
+Pronto para realizar seus primeiros testes de programação? 
+
+Antes de começarmos a digitar os códigos de alguns exemplos, vamos definir a estrutura das pastas em que os arquivos serão salvos. Recomendo que você crie uma pasta específica para os exemplos deste livro, como `LP-JavaScript` no google drive dentro do diretório `uc10`:. Dentro dessa pasta, crie uma nova pasta para cada capítulo, começando com `cap01`.
 
 Dessa forma, nossos programas ficam organizados e fáceis de localizar. Para os nomes dos programas, vamos adotar um padrão:
 - `ex1_1.html`, `ex1_2.html` e assim por diante para os exemplos do Capítulo 1.
@@ -31,7 +33,7 @@ Se estiver utilizando um computador em que não gostaria de instalar o Visual St
 </html>
 ```
 
-Depois de salvar o arquivo, é necessário executá-lo, ou, no caso do JavaScript, renderizá-lo em um navegador. Para isso, abra o seu navegador favorito e na barra de endereços informe o caminho onde você salvou o arquivo. Você também pode digitar apenas uma parte desse caminho e depois selecionar o arquivo. Outra opção é ir até a pasta em que a página foi salva, clicar com o botão direito do mouse sobre o arquivo, selecionar "Abrir com" e escolher um dos navegadores instalados no computador. Ao executar o programa, a mensagem que você escreveu dentro das aspas "Bem-vindo ao Mundo JavaScript!" é exibida em uma caixa no centro da tela.
+Depois de salvar o arquivo, é necessário executar, ou, no caso do JavaScript, renderizá-lo em um navegador. Para isso, abra o seu navegador favorito e na barra de endereços informe o caminho onde você salvou o arquivo. Você também pode digitar apenas uma parte desse caminho e depois selecionar o arquivo. Outra opção é ir até a pasta em que a página foi salva, clicar com o botão direito do mouse sobre o arquivo, selecionar "Abrir com" e escolher um dos navegadores instalados no computador. Ao executar o programa, a mensagem que você escreveu dentro das aspas "Bem-vindo ao Mundo JavaScript!" é exibida em uma caixa no centro da tela.
 
 Para visualizar a saída gerada pelo comando `console.log()`, você deve procurar por Ferramentas do Desenvolvedor no seu navegador e selecionar o item Console. No Google Chrome, você pode obter o mesmo resultado ao pressionar a tecla F12. A saída gerada pelo `console.log()` será exibida no console.
 

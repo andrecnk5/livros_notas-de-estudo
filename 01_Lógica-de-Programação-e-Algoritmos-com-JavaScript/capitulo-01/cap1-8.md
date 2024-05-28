@@ -1,0 +1,76 @@
+# Lógica de Programação e Algoritmos com JavaScript
+
+## Comentários em Códigos
+
+### 1.8 Explicando o Código
+
+Comentários em código são linhas ou blocos de texto incluídos no código-fonte de um programa que são ignorados pelo compilador ou interpretador. Eles são utilizados pelos programadores para explicar, documentar e descrever o que o código faz, além de fornecer informações adicionais que podem ser úteis para outros desenvolvedores ou para o próprio autor do código no futuro.
+
+### Importância dos Comentários
+
+1. **Documentação**: Comentários ajudam a documentar o código, tornando-o mais fácil de entender para outros desenvolvedores que possam trabalhar no mesmo projeto.
+2. **Manutenção**: Comentários claros e detalhados facilitam a manutenção do código, ajudando a identificar rapidamente o propósito e o funcionamento de diferentes partes do código.
+3. **Depuração**: Durante a depuração, comentários podem ajudar a lembrar o que uma determinada seção do código deveria fazer, facilitando a identificação de bugs.
+4. **Colaboração**: Em projetos colaborativos, comentários são essenciais para garantir que todos os membros da equipe compreendam o código e possam contribuir de forma eficaz.
+
+## Comentários em JavaScript
+
+Em JavaScript, existem duas formas principais de adicionar comentários ao código: comentários de linha única e comentários de múltiplas linhas.
+
+### Comentários de Linha Única
+
+Comentários de linha única são iniciados com duas barras (`//`). Tudo o que estiver à direita das barras será ignorado pelo interpretador.
+
+#### Exemplo:
+
+```javascript
+// Este é um comentário de linha única
+let x = 5; // Atribui o valor 5 à variável x
+```
+
+### Comentários de Múltiplas Linhas
+
+Comentários de múltiplas linhas são iniciados com `/*` e terminados com `*/`. Tudo o que estiver entre esses delimitadores será ignorado pelo interpretador.
+
+#### Exemplo:
+
+```javascript
+/*
+Este é um comentário de múltiplas linhas.
+Pode ser usado para explicar algo em mais detalhes,
+ou para comentar várias linhas de código de uma só vez.
+*/
+let y = 10;
+```
+
+### Boas Práticas para Comentários em JavaScript
+
+1. **Seja Claro e Conciso**: Comentários devem ser claros e concisos, fornecendo informações úteis sem serem prolixos.
+2. **Explique o "Porquê"**: Além de explicar o que o código faz, é importante comentar sobre o porquê de determinadas escolhas ou implementações.
+3. **Evite Comentários Óbvios**: Comentários que explicam coisas óbvias devem ser evitados, pois podem poluir o código e torná-lo mais difícil de ler.
+4. **Mantenha os Comentários Atualizados**: Certifique-se de que os comentários estejam sempre atualizados para refletir quaisquer mudanças no código.
+5. **Use Comentários para Dividir Seções**: Em códigos longos, use comentários para dividir o código em seções lógicas, facilitando a navegação e compreensão do código.
+
+#### Exemplo de Boas Práticas:
+
+```javascript
+// Função para calcular a área de um círculo
+function calcularAreaCirculo(raio) {
+    // Verifica se o raio é válido (maior que zero)
+    if (raio <= 0) {
+        // Se o raio não for válido, retorna 0
+        return 0;
+    }
+    // Calcula a área usando a fórmula πr²
+    return Math.PI * Math.pow(raio, 2);
+}
+
+// Chama a função com um raio de 5
+let area = calcularAreaCirculo(5);
+console.log("Área do círculo:", area); // Exibe a área calculada no console
+```
+
+## Conclusão
+
+Comentários são uma parte essencial da escrita de código de alta qualidade. Eles ajudam a documentar, manter e depurar o código, além de facilitar a colaboração entre desenvolvedores. Ao seguir as melhores práticas para escrever comentários, os programadores podem criar códigos que são mais fáceis de entender, manter e expandir.
+
