@@ -10,7 +10,7 @@ Bem-vindo ao meu repositório de estudos de programação! Aqui, irei compartilh
    - Edição: 2ª Edição
    - Editora: Novatec
    - [Link para o livro](https://novatec.com.br/livros/logica-programacao-algoritmos-com-javascript-2ed/?target=_blank)
-   - [Google Books](https://www.google.com.br/books/edition/L%C3%B3gica_de_Programa%C3%A7%C3%A3o_e_Algoritmos_co/35ZkEAAAQBAJ?hl=pt-BR&gbpv=1&dq=l%C3%B3gica+de+programa%C3%A7%C3%A3o+e+algoritmo+com+javascript&printsec=frontcover/?target=_blank)
+   - [Google Books](https://www.google.com.br/books/edition/L%C3%B3gica_de_Programa%C3%A7%C3%A3o_e_Algoritmos_co/35ZkEAAAQBAJ?hl=pt-BR&gbpv=1&dq=l%C3%B3gica+de+programa%C3%A7%C3%A3o+e+algoritmo+com+javascript&printsec=frontcover)
 
 2. **Introdução à Programação e aos Algoritmos**
 
