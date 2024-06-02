@@ -9,7 +9,7 @@ Bem-vindo ao meu repositório de estudos de programação! Aqui, irei compartilh
    - Autor: Edécio Fernando Iepsen
    - Edição: 2ª Edição
    - Editora: Novatec
-   - [Link para o livro](01_Lógica-de-Programação-e-Algoritmos-com-JavaScript)
+   - [Link para o livro](https://novatec.com.br/livros/logica-programacao-algoritmos-com-javascript-2ed/)
 
 2. **Introdução à Programação e aos Algoritmos**
 
