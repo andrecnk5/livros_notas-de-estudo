@@ -4,7 +4,7 @@ Bem-vindo ao meu repositório de estudos de programação! Aqui, irei compartilh
 
 ## Livros em Estudo
 
-1. **Lógica de Programação e Algoritmos com JavaScript**
+1. [**Lógica de Programação e Algoritmos com JavaScript**](01_Lógica-de-Programação-e-Algoritmos-com-JavaScript\README.md)
 
    - Autor: Edécio Fernando Iepsen
    - Edição: 2ª Edição
