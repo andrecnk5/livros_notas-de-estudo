@@ -137,3 +137,5 @@ console.log(x <= y); // Saída: true
 ```
 
 Estes operadores são fundamentais para controle de fluxo em programas, permitindo a execução de blocos de código baseados em condições.
+
+[⬅ Voltar ](README.md)

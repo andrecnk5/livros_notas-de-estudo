@@ -15,16 +15,16 @@ Operadores em JavaScript são símbolos que instruem o compilador ou interpretad
 
 ## Sumário
 
-1. [Operadores Aritméticos](1.1-operadores_aritmeticos_javascript.md)
+1. [Operadores Aritméticos](cap2-01-operadores_aritmeticos_javascript)
 
-2. [Operadores de Atribuição](1.2-operadores_de_atribuicao_javascript.md)
+2. [Operadores de Atribuição](cap-02-operadores_de_atribuicao_javascript.md)
 
-3. [Operadores de Comparação](1.3-operadores_de_comparacao_javascript.md)
+3. [Operadores de Comparação](cap2-03-operadores_de_comparacao_javascript.md)
 
-4. [Operadores Lógicos](1.4-operadores_logicos_javascript.md)
+4. [Operadores Lógicos](2-04-operadores_logicos_javascript.md)
 
-5. [Operadores de Identidade](1.5-operadores_de_identidade_javascript.md)
+5. [Operadores de Identidade](cap2-05-operadores_de_identidade_javascript.md)
 
-6. [Operadores de Associação](1.6-operadores_de_associacao_javascript.md)
+6. [Operadores de Associação](cap2-06-operadores_de_associacao_javascript.md)
 
-   
+[⬅ Voltar ](../README.md)

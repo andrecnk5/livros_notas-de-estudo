@@ -13,7 +13,7 @@ Aqui está uma lista dos operadores aritméticos disponíveis em JavaScript e co
   ```javascript
   let a = 5;
   let b = 3;
-  console.log(a + b);  // Saída: 8
+  console.log(a + b); // Saída: 8
   ```
 
 - `-`: Subtração. Subtrai o segundo valor do primeiro.
@@ -21,7 +21,7 @@ Aqui está uma lista dos operadores aritméticos disponíveis em JavaScript e co
   ```javascript
   let a = 5;
   let b = 3;
-  console.log(a - b);  // Saída: 2
+  console.log(a - b); // Saída: 2
   ```
 
 - `*`: Multiplicação. Multiplica dois valores.
@@ -29,7 +29,7 @@ Aqui está uma lista dos operadores aritméticos disponíveis em JavaScript e co
   ```javascript
   let a = 5;
   let b = 3;
-  console.log(a * b);  // Saída: 15
+  console.log(a * b); // Saída: 15
   ```
 
 - `/`: Divisão. Divide o primeiro valor pelo segundo, resultando em um float.
@@ -37,7 +37,7 @@ Aqui está uma lista dos operadores aritméticos disponíveis em JavaScript e co
   ```javascript
   let a = 5;
   let b = 3;
-  console.log(a / b);  // Saída: 1.6666666666666667
+  console.log(a / b); // Saída: 1.6666666666666667
   ```
 
 - `//`: Divisão inteira. (Não existe um operador específico para divisão inteira em JavaScript, mas podemos usar `Math.floor` para isso).
@@ -45,7 +45,7 @@ Aqui está uma lista dos operadores aritméticos disponíveis em JavaScript e co
   ```javascript
   let a = 5;
   let b = 3;
-  console.log(Math.floor(a / b));  // Saída: 1
+  console.log(Math.floor(a / b)); // Saída: 1
   ```
 
 - `%`: Módulo. Retorna o resto da divisão do primeiro valor pelo segundo.
@@ -53,7 +53,7 @@ Aqui está uma lista dos operadores aritméticos disponíveis em JavaScript e co
   ```javascript
   let a = 5;
   let b = 3;
-  console.log(a % b);  // Saída: 2
+  console.log(a % b); // Saída: 2
   ```
 
 - `**`: Exponenciação. Eleva o primeiro valor à potência do segundo.
@@ -61,7 +61,7 @@ Aqui está uma lista dos operadores aritméticos disponíveis em JavaScript e co
   ```javascript
   let a = 5;
   let b = 3;
-  console.log(a ** b);  // Saída: 125javascript
+  console.log(a ** b); // Saída: 125javascript
   ```
 
 Estes operadores são a base para manipulação de números em JavaScript e são utilizados em uma ampla variedade de aplicações matemáticas e algorítmicas.
@@ -76,12 +76,12 @@ A adição é usada para somar dois valores. Pode ser usada com números ou stri
 let x = 10;
 let y = 20;
 let resultado = x + y;
-console.log(resultado);  // Saída: 30
+console.log(resultado); // Saída: 30
 
 let str1 = "Hello, ";
 let str2 = "World!";
 let mensagem = str1 + str2;
-console.log(mensagem);  // Saída: "Hello, World!"
+console.log(mensagem); // Saída: "Hello, World!"
 ```
 
 ### Subtração
@@ -92,7 +92,7 @@ A subtração é usada para subtrair um valor de outro.
 let x = 10;
 let y = 5;
 let resultado = x - y;
-console.log(resultado);  // Saída: 5
+console.log(resultado); // Saída: 5
 ```
 
 ### Multiplicação
@@ -103,7 +103,7 @@ A multiplicação multiplica dois valores.
 let x = 10;
 let y = 5;
 let resultado = x * y;
-console.log(resultado);  // Saída: 50
+console.log(resultado); // Saída: 50
 ```
 
 ### Divisão
@@ -114,7 +114,7 @@ A divisão divide um valor pelo outro.
 let x = 10;
 let y = 2;
 let resultado = x / y;
-console.log(resultado);  // Saída: 5
+console.log(resultado); // Saída: 5
 ```
 
 ### Divisão Inteira
@@ -125,7 +125,7 @@ A divisão inteira pode ser obtida usando `Math.floor` para arredondar o resulta
 let x = 10;
 let y = 3;
 let resultado = Math.floor(x / y);
-console.log(resultado);  // Saída: 3
+console.log(resultado); // Saída: 3
 ```
 
 ### Módulo
@@ -136,7 +136,7 @@ O operador de módulo retorna o resto da divisão de dois valores.
 let x = 10;
 let y = 3;
 let resultado = x % y;
-console.log(resultado);  // Saída: 1
+console.log(resultado); // Saída: 1
 ```
 
 ### Exponenciação
@@ -147,7 +147,9 @@ A exponenciação eleva um valor à potência de outro.
 let x = 2;
 let y = 3;
 let resultado = x ** y;
-console.log(resultado);  // Saída: 8
+console.log(resultado); // Saída: 8
 ```
 
 Estes exemplos mostram como usar os operadores aritméticos em JavaScript para realizar cálculos básicos. Esses operadores são essenciais para desenvolver uma variedade de funcionalidades em suas aplicações.
+
+[⬅ Voltar ](README.md)

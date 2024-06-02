@@ -7,7 +7,7 @@ Operadores de atribuição são utilizados para atribuir valores a variáveis em
 ### Exemplo Básico de Atribuição
 
 ```javascript
-let x = 10;  // Atribui o valor 10 à variável x
+let x = 10; // Atribui o valor 10 à variável x
 ```
 
 ## Operadores de Atribuição Combinados
@@ -20,8 +20,8 @@ Além do operador básico de atribuição, JavaScript também oferece operadores
 
 ```javascript
 let x = 10;
-x += 3;  // Equivalente a x = x + 3
-console.log(x);  // Saída: 13
+x += 3; // Equivalente a x = x + 3
+console.log(x); // Saída: 13
 ```
 
 #### Exemplos Práticos
@@ -29,15 +29,15 @@ console.log(x);  // Saída: 13
 ```javascript
 let x = 5;
 x += 10;
-console.log(x);  // Saída: 15
+console.log(x); // Saída: 15
 ```
 
 - `*=`: Multiplica a variável pelo valor à direita e atribui o resultado.
 
 ```javascript
 let x = 10;
-x *= 3;  // Equivalente a x = x * 3
-console.log(x);  // Saída: 30
+x *= 3; // Equivalente a x = x * 3
+console.log(x); // Saída: 30
 ```
 
 #### Exemplos Práticos
@@ -45,15 +45,15 @@ console.log(x);  // Saída: 30
 ```javascript
 let x = 5;
 x *= 4;
-console.log(x);  // Saída: 20
+console.log(x); // Saída: 20
 ```
 
 - `-=`: Subtrai o valor à direita do valor da variável e atribui o resultado.
 
 ```javascript
 let x = 10;
-x -= 3;  // Equivalente a x = x - 3
-console.log(x);  // Saída: 7
+x -= 3; // Equivalente a x = x - 3
+console.log(x); // Saída: 7
 ```
 
 #### Exemplos Práticos
@@ -61,15 +61,15 @@ console.log(x);  // Saída: 7
 ```javascript
 let x = 20;
 x -= 8;
-console.log(x);  // Saída: 12
+console.log(x); // Saída: 12
 ```
 
 - `/=`: Divide a variável pelo valor à direita e atribui o resultado como um float.
 
 ```javascript
 let x = 10;
-x /= 3;  // Equivalente a x = x / 3
-console.log(x);  // Saída: 3.3333333333333335
+x /= 3; // Equivalente a x = x / 3
+console.log(x); // Saída: 3.3333333333333335
 ```
 
 #### Exemplos Práticos
@@ -77,15 +77,15 @@ console.log(x);  // Saída: 3.3333333333333335
 ```javascript
 let x = 9;
 x /= 2;
-console.log(x);  // Saída: 4.5
+console.log(x); // Saída: 4.5
 ```
 
 - `//=`: (JavaScript não possui um operador específico para divisão inteira, mas podemos usar `Math.floor` para isso).
 
 ```javascript
 let x = 10;
-x = Math.floor(x / 3);  // Equivalente a x = Math.floor(x / 3)
-console.log(x);  // Saída: 3
+x = Math.floor(x / 3); // Equivalente a x = Math.floor(x / 3)
+console.log(x); // Saída: 3
 ```
 
 #### Exemplos Práticos
@@ -93,15 +93,15 @@ console.log(x);  // Saída: 3
 ```javascript
 let x = 11;
 x = Math.floor(x / 2);
-console.log(x);  // Saída: 5
+console.log(x); // Saída: 5
 ```
 
 - `%=`: Calcula o módulo da variável pelo valor à direita e atribui o resultado.
 
 ```javascript
 let x = 10;
-x %= 3;  // Equivalente a x = x % 3
-console.log(x);  // Saída: 1
+x %= 3; // Equivalente a x = x % 3
+console.log(x); // Saída: 1
 ```
 
 #### Exemplos Práticos
@@ -109,15 +109,15 @@ console.log(x);  // Saída: 1
 ```javascript
 let x = 17;
 x %= 5;
-console.log(x);  // Saída: 2
+console.log(x); // Saída: 2
 ```
 
 - `**=`: Eleva a variável ao poder do valor à direita e atribui o resultado.
 
 ```javascript
 let x = 10;
-x **= 3;  // Equivalente a x = x ** 3
-console.log(x);  // Saída: 1000
+x **= 3; // Equivalente a x = x ** 3
+console.log(x); // Saída: 1000
 ```
 
 #### Exemplos Práticos
@@ -125,15 +125,15 @@ console.log(x);  // Saída: 1000
 ```javascript
 let x = 2;
 x **= 4;
-console.log(x);  // Saída: 16
+console.log(x); // Saída: 16
 ```
 
 - `&=`: Aplica a operação AND bit a bit com o valor à direita e atribui o resultado.
 
 ```javascript
 let x = 10;
-x &= 3;  // Equivalente a x = x & 3
-console.log(x);  // Saída: 2
+x &= 3; // Equivalente a x = x & 3
+console.log(x); // Saída: 2
 ```
 
 #### Exemplos Práticos
@@ -141,15 +141,15 @@ console.log(x);  // Saída: 2
 ```javascript
 let x = 12;
 x &= 5;
-console.log(x);  // Saída: 4
+console.log(x); // Saída: 4
 ```
 
 - `|=`: Aplica a operação OR bit a bit com o valor à direita e atribui o resultado.
 
 ```javascript
 let x = 10;
-x |= 3;  // Equivalente a x = x | 3
-console.log(x);  // Saída: 11
+x |= 3; // Equivalente a x = x | 3
+console.log(x); // Saída: 11
 ```
 
 #### Exemplos Práticos
@@ -157,15 +157,15 @@ console.log(x);  // Saída: 11
 ```javascript
 let x = 8;
 x |= 4;
-console.log(x);  // Saída: 12
+console.log(x); // Saída: 12
 ```
 
 - `^=`: Aplica a operação XOR bit a bit com o valor à direita e atribui o resultado.
 
 ```javascript
 let x = 10;
-x ^= 3;  // Equivalente a x = x ^ 3
-console.log(x);  // Saída: 9
+x ^= 3; // Equivalente a x = x ^ 3
+console.log(x); // Saída: 9
 ```
 
 #### Exemplos Práticos
@@ -173,15 +173,15 @@ console.log(x);  // Saída: 9
 ```javascript
 let x = 6;
 x ^= 2;
-console.log(x);  // Saída: 4
+console.log(x); // Saída: 4
 ```
 
 - `<<=`: Desloca os bits da variável para a esquerda pelo número de posições especificado pelo valor à direita e atribui o resultado.
 
 ```javascript
 let x = 10;
-x <<= 3;  // Equivalente a x = x << 3
-console.log(x);  // Saída: 80
+x <<= 3; // Equivalente a x = x << 3
+console.log(x); // Saída: 80
 ```
 
 #### Exemplos Práticos
@@ -189,15 +189,15 @@ console.log(x);  // Saída: 80
 ```javascript
 let x = 5;
 x <<= 2;
-console.log(x);  // Saída: 20
+console.log(x); // Saída: 20
 ```
 
 - `>>=`: Desloca os bits da variável para a direita pelo número de posições especificado pelo valor à direita e atribui o resultado.
 
 ```javascript
 let x = 10;
-x >>= 3;  // Equivalente a x = x >> 3
-console.log(x);  // Saída: 1
+x >>= 3; // Equivalente a x = x >> 3
+console.log(x); // Saída: 1
 ```
 
 #### Exemplos Práticos
@@ -205,7 +205,9 @@ console.log(x);  // Saída: 1
 ```javascript
 let x = 16;
 x >>= 2;
-console.log(x);  // Saída: 4
+console.log(x); // Saída: 4
 ```
 
 Estes operadores tornam o código mais conciso e, muitas vezes, mais claro ao evitar repetições desnecessárias de nomes de variáveis.
+
+[⬅ Voltar ](README.md)

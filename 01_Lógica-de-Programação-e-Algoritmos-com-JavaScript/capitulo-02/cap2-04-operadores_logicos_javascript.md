@@ -95,3 +95,5 @@ for (let i = 0; i < 10; i++) {
 ```
 
 Estes exemplos mostram como usar os operadores lógicos para controlar o fluxo de execução de programas em JavaScript.
+
+[⬅ Voltar ](README.md)

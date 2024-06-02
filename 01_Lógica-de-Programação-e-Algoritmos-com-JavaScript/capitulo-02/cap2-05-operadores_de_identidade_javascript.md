@@ -77,3 +77,5 @@ console.log(arr1 !== arr2); // Saída: true
 ```
 
 Estes operadores são particularmente úteis para verificar se duas variáveis referenciam o mesmo objeto em memória, o que é diferente de ter o mesmo conteúdo.
+
+[⬅ Voltar ](README.md)

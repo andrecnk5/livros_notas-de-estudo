@@ -73,3 +73,5 @@ if (phrase.includes("divertido")) {
   console.log("A frase não contém a palavra 'divertido'.");
 }
 ```
+
+[⬅ Voltar ](README.md)
