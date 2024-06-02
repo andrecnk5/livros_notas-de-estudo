@@ -40,7 +40,7 @@ Aqui está uma lista dos operadores aritméticos disponíveis em JavaScript e co
   console.log(a / b); // Saída: 1.6666666666666667
   ```
 
-- `//`: Divisão inteira. (Não existe um operador específico para divisão inteira em JavaScript, mas podemos usar `Math.floor` para isso).
+- `Divisão inteira`. _Não existe um operador específico para divisão inteira em JavaScript_. Para obtermos o valor inteiro de um divisão em JavaScript utilizamos o método `.floor` do objeto `Math`.
 
   ```javascript
   let a = 5;
@@ -61,7 +61,7 @@ Aqui está uma lista dos operadores aritméticos disponíveis em JavaScript e co
   ```javascript
   let a = 5;
   let b = 3;
-  console.log(a ** b); // Saída: 125javascript
+  console.log(a ** b); // Saída: 125
   ```
 
 Estes operadores são a base para manipulação de números em JavaScript e são utilizados em uma ampla variedade de aplicações matemáticas e algorítmicas.
