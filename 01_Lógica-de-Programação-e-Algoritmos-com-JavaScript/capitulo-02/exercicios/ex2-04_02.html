@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contador</title>
+  </head>
+  <body>
+    <script>
+      // Solicita ao usuário para digitar um número entre 1 e 10
+      let number = prompt("Digite um número entre 1 e 10:");
+      number = parseInt(number); // Converte a entrada para número inteiro
+
+      // Inicializa o contador
+      let count = 0;
+
+      // Enquanto o contador for menor que o número digitado e maior ou igual a 0
+      while (count < number && count >= 0) {
+        console.log("O contador é: " + count); // Exibe o valor do contador no console
+        count++; // Incrementa o contador
+      }
+    </script>
+  </body>
+</html>

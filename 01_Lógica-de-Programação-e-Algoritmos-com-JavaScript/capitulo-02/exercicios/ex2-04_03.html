@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contar Números Pares</title>
+  </head>
+  <body>
+    <script>
+      // Solicita ao usuário para digitar um número
+      let number = prompt("Digite um número:");
+      number = parseInt(number); // Converte a entrada para número inteiro
+
+      // Inicializa o contador de números pares
+      let count = 0;
+
+      // Loop para contar e exibir números pares até o número digitado
+      for (let i = 1; i <= number; i++) {
+        if (i % 2 === 0) {
+          // Verifica se o número é par
+          console.log(i + " é par");
+          count++;
+        }
+      }
+
+      // Exibe o resultado final
+      console.log("O número de números pares até " + number + " é: " + count);
+      alert("O número de números pares até " + number + " é: " + count);
+    </script>
+  </body>
+</html>

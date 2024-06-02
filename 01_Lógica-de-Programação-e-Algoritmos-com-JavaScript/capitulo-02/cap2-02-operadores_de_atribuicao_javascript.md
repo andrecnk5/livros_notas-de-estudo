@@ -80,7 +80,7 @@ x /= 2;
 console.log(x); // Saída: 4.5
 ```
 
-- `//=`: (JavaScript não possui um operador específico para divisão inteira, mas podemos usar `Math.floor` para isso).
+- `Divisão Inteira`: Utilizamos `Math.floor` para isso.
 
 ```javascript
 let x = 10;
@@ -126,86 +126,6 @@ console.log(x); // Saída: 1000
 let x = 2;
 x **= 4;
 console.log(x); // Saída: 16
-```
-
-- `&=`: Aplica a operação AND bit a bit com o valor à direita e atribui o resultado.
-
-```javascript
-let x = 10;
-x &= 3; // Equivalente a x = x & 3
-console.log(x); // Saída: 2
-```
-
-#### Exemplos Práticos
-
-```javascript
-let x = 12;
-x &= 5;
-console.log(x); // Saída: 4
-```
-
-- `|=`: Aplica a operação OR bit a bit com o valor à direita e atribui o resultado.
-
-```javascript
-let x = 10;
-x |= 3; // Equivalente a x = x | 3
-console.log(x); // Saída: 11
-```
-
-#### Exemplos Práticos
-
-```javascript
-let x = 8;
-x |= 4;
-console.log(x); // Saída: 12
-```
-
-- `^=`: Aplica a operação XOR bit a bit com o valor à direita e atribui o resultado.
-
-```javascript
-let x = 10;
-x ^= 3; // Equivalente a x = x ^ 3
-console.log(x); // Saída: 9
-```
-
-#### Exemplos Práticos
-
-```javascript
-let x = 6;
-x ^= 2;
-console.log(x); // Saída: 4
-```
-
-- `<<=`: Desloca os bits da variável para a esquerda pelo número de posições especificado pelo valor à direita e atribui o resultado.
-
-```javascript
-let x = 10;
-x <<= 3; // Equivalente a x = x << 3
-console.log(x); // Saída: 80
-```
-
-#### Exemplos Práticos
-
-```javascript
-let x = 5;
-x <<= 2;
-console.log(x); // Saída: 20
-```
-
-- `>>=`: Desloca os bits da variável para a direita pelo número de posições especificado pelo valor à direita e atribui o resultado.
-
-```javascript
-let x = 10;
-x >>= 3; // Equivalente a x = x >> 3
-console.log(x); // Saída: 1
-```
-
-#### Exemplos Práticos
-
-```javascript
-let x = 16;
-x >>= 2;
-console.log(x); // Saída: 4
 ```
 
 Estes operadores tornam o código mais conciso e, muitas vezes, mais claro ao evitar repetições desnecessárias de nomes de variáveis.

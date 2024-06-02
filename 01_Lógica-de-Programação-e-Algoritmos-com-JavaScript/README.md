@@ -27,7 +27,6 @@
 - [Operadores de Atribuição](cap2-02-operadores_de_atribuicao_javascript)
 - [Operadores de Comparação](cap2-03-operadores_de_comparacao_javascript)
 - [Operadores Lógicos](cap2-04-operadores_logicos_javascript)
-- [Operadores de Identidade](cap2-05-operadores_de_identidade_javascript)
 
 ## Referências
 
