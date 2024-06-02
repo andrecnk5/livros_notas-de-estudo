@@ -15,7 +15,7 @@ Operadores em JavaScript são símbolos que instruem o compilador ou interpretad
 
 ## Sumário
 
-1. [Operadores Aritméticos](cap2-01-operadores_aritmeticos_javascript)
+1. [Operadores Aritméticos](cap2-01-operadores_aritmeticos_javascript.md)
 
 2. [Operadores de Atribuição](cap-02-operadores_de_atribuicao_javascript.md)
 
