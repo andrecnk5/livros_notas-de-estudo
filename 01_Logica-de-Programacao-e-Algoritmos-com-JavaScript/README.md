@@ -28,6 +28,8 @@
 - [Operadores de Comparação](cap2-03-operadores_de_comparacao_javascript)
 - [Operadores Lógicos](cap2-04-operadores_logicos_javascript)
 
+## [Integração com HTML](capitulo-03/README.md)
+
 ## Referências
 
 ## Índice remissivo
