@@ -5,12 +5,6 @@
 ### [1. Lógica](capitulo-01/README.md)
 
 - [Lógica de programação ](capitulo-01/cap1-01.md)
-  - Compreender o que é pedido
-  - Realizar deduções na construção do programa
-  - Enumerar as etapas a serem realizadas
-  - Analisar outras possibilidades de solução
-  - Ensinar ao computador uma solução
-  - Pensar em todos os detalhes
 - [Entrada, processamento e saída ](capitulo-01/cap1-02.md)
 - [JavaScript ](capitulo-01/cap1-03.md)
 - [Editores de código JavaScript ](capitulo-01/cap1-04.md)
