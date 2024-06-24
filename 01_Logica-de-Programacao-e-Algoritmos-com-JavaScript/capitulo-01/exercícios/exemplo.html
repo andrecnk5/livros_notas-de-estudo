@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Lucro</title>
+    <style>
+      p {
+        font-size: 22px;
+        color: blueviolet;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // Entrada de dados
+      const lucroBrutoAnual = parseFloat(
+        prompt("Digite o valor do Lucro Bruto Anual: ")
+      );
+      const despesasAnuais = parseFloat(
+        prompt("Digite o valor das Despesas Anuais: ")
+      );
+
+      // Processamentos
+      const lucroLiquidoAnual = lucroBrutoAnual - despesasAnuais;
+      const lucroLiquidoMensal = lucroLiquidoAnual / 12;
+      const lucroBrutoMensal = lucroBrutoAnual / 12;
+
+      // Saída de Dados
+      document.write(
+        "<p>O resultado do seu lucro líquido anual em 2023 é de R$: " +
+          lucroLiquidoAnual.toFixed(2) +
+          "</p>"
+      );
+      document.write(
+        "<p>O resultado do seu lucro líquido mensal em 2023 é de R$: " +
+          lucroLiquidoMensal.toFixed(2) +
+          "</p>"
+      );
+      document.write(
+        "<p>O resultado do seu lucro bruto mensal em 2023 é de R$: " +
+          lucroBrutoMensal.toFixed(2) +
+          "</p>"
+      );
+    </script>
+  </body>
+</html>
