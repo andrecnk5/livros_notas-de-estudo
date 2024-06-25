@@ -51,3 +51,7 @@
 #### [3.13 Considerações finais do capítulo](cap3-13.md)
 
 - **Conteúdo**: Resumo dos pontos principais abordados no capítulo. Reflexão sobre a importância da integração de JavaScript com HTML para criar páginas web interativas. Preparação dos estudantes para capítulos futuros, incentivando a prática contínua e a exploração de novos conceitos.
+
+---
+
+[⬅️ Voltar](../README.md)

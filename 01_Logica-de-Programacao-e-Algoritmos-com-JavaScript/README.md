@@ -17,10 +17,10 @@
 
 ### [2. Operadores em JavaScript](capitulo-02/README.md)
 
-- [Operadores Aritméticos](capitulo-02/cap2-01-operadores_aritmeticos_javascript)
-- [Operadores de Atribuição](capitulo-02/cap2-02-operadores_de_atribuicao_javascript)
-- [Operadores de Comparação](capitulo-02/cap2-03-operadores_de_comparacao_javascript)
-- [Operadores Lógicos](capitulo-02/cap2-04-operadores_logicos_javascript)
+- [Operadores Aritméticos](capitulo-02/cap2-01)
+- [Operadores de Atribuição](capitulo-02/cap2-02)
+- [Operadores de Comparação](capitulo-02/cap2-03)
+- [Operadores Lógicos](capitulo-02/cap2-04)
 
 ### [3. Integração com HTML](capitulo-03/README.md)
 

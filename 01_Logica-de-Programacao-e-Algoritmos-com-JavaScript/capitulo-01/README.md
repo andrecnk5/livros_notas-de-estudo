@@ -73,4 +73,6 @@ Neste capítulo, abordaremos os conceitos fundamentais de lógica de programaç�
 
 1.10 [**"Falar é fácil. Mostre-me o código."**](cap1-10.md) — _Linus Torvalds_
 
-[⬅ Voltar ](../README.md)
+---
+
+[⬅️ Voltar](../README.md)
